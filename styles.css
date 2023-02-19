@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.calculator {
+padding: 10px;
+border-radius: 2em;
+height: 540px;
+width: 360px;
+margin: auto;
+background-color:#ececec;
+box-shadow: rgba(0, 0, 0, 0.543) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+font-size: large;
+font-weight: 900;
+background-color:#fefefe;
+border: solid #1b1b1b 2.5px;
+color:#1b1b1b;
+border-radius: 5px;
+width: 100%;
+height: 65%;
+}
+
+#btn {
+background-color: #f0a238;
+}
+
+input[type=button] {
+font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+font-size: larger;
+font-weight: 900;
+
+background-color: #fefefe;
+color: #1b1b1b;
+border: solid black 2.5px;
+width: 100%;
+border-radius: 5px;
+height: 70%;
+outline: none;
+}
+
+input:active[type=button] {
+background: #464343;
+-webkit-box-shadow: inset 0px 0px 5px #284de3;
+-moz-box-shadow: inset 0px 0px 5px #bbc625;
+box-shadow: inset 0px 0px 5px #8d7474;
+}
